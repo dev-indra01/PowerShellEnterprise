@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Poppins:400,500,600|Teko:300,400,500|Maven+Pro:500">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <style>
+    .floating-wp {
+      position: fixed;
+      bottom: 30px;
+      right: 70px;
+      color: green;
+      text-align: center;
+      font-size: 50px;
+      z-index: 100;
+    }
+
+    .float-button {
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .floating-wp {
+        bottom: 15px;
+        right: 15px;
+        font-size: 40px;
+      }
+    }
+
+    .floating-call {
+      position: fixed;
+      bottom: 30px;
+      right: 120px;
+      color: green;
+      text-align: center;
+      font-size: 40px;
+      z-index: 100;
+    }
+
+    .float-button {
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .floating-call {
+        bottom: 15px;
+        right: 60px;
+        font-size: 32px;
+      }
+    }
+
+   /* Set initial size for iframe */
+   #map {
+            width: 650px; /* Full width */
+            height: 400px; /* Default height */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            #map {
+                width: 350px; /* Adjusted height for smaller screens */
+            }
+        }
+  </style>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-container"><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+  <div class="page">
+    <div id="home">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+            data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+            data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
+            data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+            data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <a class="brand" href=""><img src="images/logo-default-223x50.png" alt="" width="223"
+                        height="50" /></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Share-->
+                    <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
+                      <ul class="list-inline rd-navbar-share-list">
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
+                      </ul>
+                    </div>
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Services</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">Projects</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#tech">Technologies</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true"
+        data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
+        <div class="swiper-wrapper text-center">
+          <div class="swiper-slide" data-slide-bg="images/slider-1-slide-2-1770x742.jpg">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Website and Software Development</h1>
+                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Since our
+                  establishment, we have been delivering high-quality and sustainable software solutions for corporate
+                  purposes of businesses.</p><a class="button button-primary button-ujarak" href="#modalCta"
+                  data-toggle="modal" data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
+                <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                  <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                  <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/slider-1-slide-4-1770x742.jpg">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Web Automation</h1>
+                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">We are expert in
+                  Web Automation
+                  and repetitive tasks to streamline workflows and improve productivity.
+                  We aimed at creating unique and powerful tools for your business &
+                  everyday life.</p>
+                <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
+                  data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
+                <h2><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                  <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                  <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/slider-1-slide-6-1770x742.jpg">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Great Performance & UI Design </h1>
+                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">The software
+                  solutions developed by our company have top quality performance with innovative features and great UI
+                  design.
+                </p><a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
+                  data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
+                <h2><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                  <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                  <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper Pagination-->
+        <div class="swiper-pagination__module">
+          <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span
+              class="swiper-pagination__fraction-divider">/</span><span
+              class="swiper-pagination__fraction-count">00</span></div>
+          <div class="swiper-pagination__divider"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+    </div>
+    <!-- See all services-->
+    <section class="section section-sm section-first bg-default text-center" id="services">
+      <div class="container">
+        <div class="row row-30 justify-content-center">
+          <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img src="images/index-1-415x592.png" alt=""
+              width="415" height="592" />
+          </div>
+          <div class="col-lg-7 col-xl-6">
+            <div class="row row-30">
+              <div class="col-sm-6 wow fadeInRight">
+                <article class="box-icon-modern box-icon-modern-custom">
+                  <div>
+                    <h3 class="box-icon-modern-big-title">What We Offer</h3>
+                    <div class="box-icon-modern-decor"></div><a class="button button-primary button-ujarak"
+                      href="#">View All Services</a>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
+                <article class="box-icon-modern box-icon-modern-2">
+                  <div class="box-icon-modern-icon linearicons-phone-in-out"></div>
+                  <h5 class="box-icon-modern-title"><a href="#">CORPORATE<br>SOLUTIONS</a></h5>
+                  <div class="box-icon-modern-decor"></div>
+                  <p class="box-icon-modern-text">Need specific software, website, tools for your company? We are ready
+                    to develop it!
+                  </p>
+                </article>
+              </div>
+              <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
+                <article class="box-icon-modern box-icon-modern-2">
+                  <div class="box-icon-modern-icon linearicons-headset"></div>
+                  <h5 class="box-icon-modern-title"><a href="#">WEB<br>AUTOMATION</a></h5>
+                  <div class="box-icon-modern-decor"></div>
+                  <p class="box-icon-modern-text">Our experts provide custom solution for any repetitive tasks or
+                    complex procedure.</p>
+                </article>
+              </div>
+              <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
+                <article class="box-icon-modern box-icon-modern-2">
+                  <div class="box-icon-modern-icon linearicons-outbox"></div>
+                  <h5 class="box-icon-modern-title"><a href="#">DATA<br>PROCESSING</a></h5>
+                  <div class="box-icon-modern-decor"></div>
+                  <p class="box-icon-modern-text">We can also offer you admin task and wide range of data processing
+                    solutions.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cta-->
+    <section class="section section-fluid bg-default">
+      <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
+        <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
+          <div class="container">
+            <div class="row row-30 justify-content-end text-right">
+              <div class="col-sm-7">
+                <h3 class="wow fadeInLeft">Let's Develop Your Next Great WebApp!</h3>
+                <p>Do you need a unique Website and software solution for your company? We know how to help you!</p>
+                <div class="group-sm group-middle group justify-content-end"><a
+                    class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal">Get in Touch</a>
+                  <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                    <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                    <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Projects-->
+    <section class="section section-sm section-fluid bg-default text-center" id="projects">
+      <div class="container-fluid">
+        <h2 class="wow fadeInLeft">Our Projects</h2>
+        <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">In our portfolio, you can browse the wide range of
+          products
+          for our clients for different purposes. Our qualified team of interface designers and
+          developers is always ready to create something unique for you.</p>
+        <div class="isotope-filters isotope-filters-horizontal">
+          <button
+            class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha"
+            data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true"
+            data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
+          <ul class="isotope-filters-list" id="isotope-3">
+            <li><a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery">All</a></li>
+            <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">Website & WebApps</a></li>
+            <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Custom Software</a></li>
+            <li><a href="#" data-isotope-filter="Type 3" data-isotope-group="gallery">Web Automation</a></li>
+            <li><a href="#" data-isotope-filter="Type 4" data-isotope-group="gallery">Digital Advertising</a></li>
+            <li><a href="#" data-isotope-filter="Type 5" data-isotope-group="gallery">seo</a></li>
+          </ul>
+        </div>
+        <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery"
+          data-lightgallery="group">
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 4">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-18-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/advertisment.png" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-18-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Digital Advertising</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">We work to empowers you to reach the right audience,
+                  maximize campaign performance, and achieve your marketing goals.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1"
+            data-wow-delay=".1s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-15-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/admintemp3.jpg" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-15-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Web Applications</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Advancements in web technologies like WebAssembly with enhanced
+                  performance and functionality
+                  closer to native applications.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2"
+            data-wow-delay=".2s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-10-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/login.jpg"
+                    data-lightgallery="item"><img src="images/fullwidth-gallery-10-420x350.jpg" alt="" width="420"
+                      height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Adhatiya App</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Management of various agricultural commodities trading for agents in
+                  mandis (markets).</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 3"
+            data-wow-delay=".3s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-19-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/webauto.jpg" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-19-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Web Automation</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">We offers Web automation refers to the process of using software tools
+                  or scripts to automate repetitive tasks performed within a web browser.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420"
+                  height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/planner.png" data-lightgallery="item"><img src="images/fullwidth-gallery-5-420x350.jpg"
+                      alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Planner</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Planner including a Content Calendar, content notifications, editorial
+                  comments etc.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1"
+            data-wow-delay=".1s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420"
+                  height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/admintemp2.png" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Web Applications</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Advancements in web technologies like WebAssembly with enhanced
+                  performance and functionality
+                  closer to native applications.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
+            data-wow-delay=".2s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-13-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/school.png"
+                    data-lightgallery="item"><img src="images/fullwidth-gallery-13-420x350.jpg" alt="" width="420"
+                      height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">School Management</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">School Management System to manage school and
+                  its entities such as classes, sections, students, ID cards, teachers, fees, invoices and much more..
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1"
+            data-wow-delay=".3s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-16-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/admintemp4.webp" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-16-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Web Applications</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Advancements in web technologies like WebAssembly with enhanced
+                  performance and functionality
+                  closer to native applications.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 5">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-17-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/seo.jpg"
+                    data-lightgallery="item"><img src="images/fullwidth-gallery-17-420x350.jpg" alt="" width="420"
+                      height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">SEO</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Acquiring high-quality backlinks from reputable websites that point
+                  back to your own.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1"
+            data-wow-delay=".1s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/projectmini.png" alt="" width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/project.png" data-lightgallery="item"><img src="images/projectmini.png" alt=""
+                      width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Project Management</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI
+                  that you won't find anywhere else.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
+            data-wow-delay=".2s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-9-420x350.jpg" alt="" width="420"
+                  height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/adhatDash1.jpg" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-9-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Adhatiya App</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Management of various agricultural commodities trading for agents in
+                  mandis (markets).</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
+            data-wow-delay=".3s">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-classic thumbnail-md">
+              <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-12-420x350.jpg" alt=""
+                  width="420" height="350" />
+              </div>
+              <div class="thumbnail-classic-caption">
+                <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                    href="images/adhatDash2.jpg" data-lightgallery="item"><img
+                      src="images/fullwidth-gallery-12-420x350.jpg" alt="" width="420" height="350" /></a>
+                  <h5 class="thumbnail-classic-title"><a href="#">Adhatiya App</a></h5>
+                </div>
+                <p class="thumbnail-classic-text">Management of various agricultural commodities trading for agents in
+                  mandis (markets).</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Years of experience-->
+    <section class="section section-sm bg-default">
+      <div class="container">
+        <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
+          <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="#">
+              <div id="particles-js"></div><span class="counter">10</span>
+            </a></div>
+          <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
+            <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
+              <h3 class="title-decoration-lines-left">Years of Experience</h3>
+              <p class="text-gray-500">PowerShell Enterprise is empowering businesses with cutting-edge solutions and
+                unparalleled expertise in WebApps and Software</p>
+              <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+            <div class="row justify-content-center border-2-column offset-top-xl-26">
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">2</span><span class="symbol">k</span>
+                  </div>
+                  <h6 class="counter-amy-title">tools developed</h6>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">150</span>
+                  </div>
+                  <h6 class="counter-amy-title">clients</h6>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">76</span>
+                  </div>
+                  <h6 class="counter-amy-title">WebApps</h6>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">5</span>
+                  </div>
+                  <h6 class="counter-amy-title">Employees</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-12 align-self-center">
+            <div class="row row-30 justify-content-center">
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href="#"><img
+                    src="images/clients-9-270x117.png" alt="" width="270" height="117" /></a></div>
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a
+                  class="clients-classic" href="#"><img src="images/clients-10-270x117.png" alt="" width="270"
+                    height="117" /></a></div>
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a
+                  class="clients-classic" href="#"><img src="images/clients-3-270x117.png" alt="" width="270"
+                    height="117" /></a></div>
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a
+                  class="clients-classic" href="#"><img src="images/clients-11-270x117.png" alt="" width="270"
+                    height="117" /></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies-->
+    <section class="section section-sm section-fluid bg-default" id="tech">
+      <div class="container-fluid">
+        <h2>Technologies working on</h2>
+        <div class="row row-sm row-30 justify-content-center">
+          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
+            <!-- Team Classic-->
+            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+                  src="images/team-11-420x424.jpg" alt="" width="420" height="424" /></a>
+              <div class="team-classic-caption">
+                <h4 class="team-classic-name"><a href="#">.NET 8.0</a></h4>
+                <p class="team-classic-status">Desktop and WebApps</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".1s">
+            <!-- Team Classic-->
+            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+                  src="images/team-12-420x424.jpg" alt="" width="420" height="424" /></a>
+              <div class="team-classic-caption">
+                <h4 class="team-classic-name"><a href="#">Vue-js</a></h4>
+                <p class="team-classic-status">Lightweight and faster</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
+            <!-- Team Classic-->
+            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+                  src="images/team-13-420x424.jpg" alt="" width="420" height="424" /></a>
+              <div class="team-classic-caption">
+                <h4 class="team-classic-name"><a href="#">Blazor</a></h4>
+                <p class="team-classic-status">Enterprise Level WebApps</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".3s">
+            <!-- Team Classic-->
+            <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+                  src="images/team-14-420x424.jpg" alt="" width="420" height="424" /></a>
+              <div class="team-classic-caption">
+                <h4 class="team-classic-name"><a href="#">HTML,CSS,JS</a></h4>
+                <p class="team-classic-status">Great UI/UX</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- You dream - we embody-->
+    <section class="section section-sm bg-default text-md-left">
+      <div class="container">
+        <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
+          <div class="col-lg-6 col-xl-5 wow fadeInLeft">
+            <h2>Get More With Us</h2>
+            <!-- Bootstrap tabs-->
+            <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6">
+              <!-- Nav tabs-->
+              <ul class="nav nav-tabs">
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1"
+                    data-toggle="tab">01</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2"
+                    data-toggle="tab">02</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3"
+                    data-toggle="tab">03</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4"
+                    data-toggle="tab">04</a></li>
+              </ul>
+              <!-- Tab panes-->
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="tabs-6-1">
+                  <h5 class="font-weight-normal">Innovative Software Solutions</h5>
+                  <p>we understand the unique challenges businesses face in today's rapidly evolving digital landscape. 
+                    That's why we've developed cutting-edge software solutions designed to drive growth, efficiency, and success for our clients.</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta"
+                      data-toggle="modal">Get in touch</a>
+                    <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                      <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                      <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-6-2">
+                  <h5 class="font-weight-normal">Scalability</h5>
+                  <p>Our solutions are built to scale seamlessly with your business. Whether you're a startup experiencing rapid expansion or
+                    an established enterprise seeking to accommodate increased demand, our scalable software ensures that your operations can grow without limitations.</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta"
+                      data-toggle="modal">Get in touch</a>
+                    <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                      <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                      <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-6-3">
+                  <h5 class="font-weight-normal">Security and Compliance</h5>
+                  <p> Security is our top priority. Our software solutions are engineered with robust security measures to safeguard 
+                    your sensitive data against threats and breaches. Rest assured that your information is in safe hands.</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta"
+                      data-toggle="modal">Get in touch</a>
+                    <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                      <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                      <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-6-4">
+                  <h5 class="font-weight-normal">Advanced Analytics and Reporting</h5>
+                  <p>Data is the lifeblood of modern business, and our solutions empower you to harness its full potential. 
+                    With advanced analytics and reporting features, you gain actionable insights into your business performance, customer behavior, and market trends. </p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta"
+                      data-toggle="modal">Get in touch</a>
+                    <h3><a class="icon fa fa-phone" href="tel:+918109291088"></a>
+                      <a class="icon fa fa-whatsapp" href="https://wa.me/+918109291088"></a>
+                      <a class="icon fa fa-envelope" href="mailto:powershellent@gmail.com"></a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay=".1s">
+            <div class="owl-carousel owl-style-1" data-items="2" data-stage-padding="0" data-loop="true" data-margin="0"
+              data-mouse-drag="true" data-autoplay="true">
+              <a class="box-device" href="#"><img src="images/index-4-313x580.webp" alt="" width="313"
+                  height="580" /></a>
+              <a class="box-device" href="#"><img src="images/index-8-313x580.webp" alt="" width="313"
+                  height="580" /></a>
+              <a class="box-device" href="#"><img src="images/index-7-313x580.webp" alt="" width="313"
+                  height="580" /></a>
+              <a class="box-device" href="#"><img src="images/index-9-313x580.webp" alt="" width="313"
+                  height="580" /></a>
+              <a class="box-device" href="#"><img src="images/index-6-313x580.webp" alt="" width="313"
+                  height="580" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What people Say-->
+    <section class="section section-sm section-bottom-70 section-fluid bg-default">
+      <div class="container-fluid">
+        <h2>Why choose us</h2>
+        <div class="row row-50 row-sm">
+          <div class="col-md-6 col-xl-4 wow fadeInRight">
+            <!-- Quote Modern-->
+            <article class="quote-modern quote-modern-custom">
+              <div class="unit unit-spacing-md align-items-center">
+                <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles"
+                      src="images/75x75_1.png" alt="" width="75" height="75" /></a></div>
+                <div class="unit-body">
+                  <h4 class="quote-modern-cite"><a href="#">Customization</a></h4>
+                  <p class="quote-modern-status">1</p>
+                </div>
+              </div>
+              <div class="quote-modern-text">
+                <p class="q"> We allow clients to change their specific needs and adapt to evolving requirements.
+                  Allowing clients to adjust settings, workflows, and user interfaces to match their preferences.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+            <!-- Quote Modern-->
+            <article class="quote-modern quote-modern-custom">
+              <div class="unit unit-spacing-md align-items-center">
+                <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles"
+                      src="images/75x75_2.png" alt="" width="75" height="75" /></a></div>
+                <div class="unit-body">
+                  <h4 class="quote-modern-cite"><a href="#">Cost-Effectiveness</a></h4>
+                  <p class="quote-modern-status">2</p>
+                </div>
+              </div>
+              <div class="quote-modern-text">
+                <p class="q">PowerShell Enterprise gives cost-effective solution compared to competitors, emphasizing
+                  value for money.
+                  Great features, efficiency gains and long-term benefits are our goal.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
+            <!-- Quote Modern-->
+            <article class="quote-modern quote-modern-custom">
+              <div class="unit unit-spacing-md align-items-center">
+                <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles"
+                      src="images/75x75_3.png" alt="" width="75" height="75" /></a></div>
+                <div class="unit-body">
+                  <h4 class="quote-modern-cite"><a href="#">User Experience</a></h4>
+                  <p class="quote-modern-status">3</p>
+                </div>
+              </div>
+              <div class="quote-modern-text">
+                <p class="q">We will you user-friendly interface and intuitive design for your solutions.
+                  Lightweight, smooth performance and beautiful UX/UI are the key features.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact-Us -->
+    <section class="section section-sm section-fluid bg-default" id="contact">
+      <div class="container-fluid">
+        <h2>Contact us</h2>
+        <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">Have you any question? We here to help and
+          answer any question you might have. We look forward to hearing from you. &#x1F642;</p>
+        <div class="row row-sm row-30 justify-content-center">
+          <div class="col bg-gray-dark">
+            <iframe
+            id="map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29580.814719491962!2d81.6913547!3d22.0648213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2837211823f8e7%3A0x17b985cb59ed59c8!2sPowerShell%20Enterprise!5e0!3m2!1sen!2sin!4v1710811793387!5m2!1sen!2sin"
+              style="border:0;" class="pt-2" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col bg-gray-dark">
+            <div class="container">
+              <div class="row mt-5">
+                <div class="col-md-6 col-lg-6">
+                  <div class="contact-item text-center mt-3">
+                    <h3><a class="fa fa-envelope"></a></h3>
+                    <h3>Email:</h3>
+                    <a href="mailto:powershellent@gmail.com" target="_blank">powershellent@gmail.com</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="contact-item text-center mt-3">
+                    <h3><a class="fa fa-phone"></a></h3>
+                    <h3>Mobile:</h3>
+                    <a href="tel:+918109291088">+91 8109291088</a>
+                  </div>
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-lg-6">
+                  <div class="contact-item text-center my-3">
+                    <h3><a class="fa fa-whatsapp"></a></h3>
+                    <h3>WhatsApp:</h3>
+                    <a href="https://wa.me/+918109291088" target="_blank">+91 8109291088</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="contact-item text-center my-3">
+                    <h3><a class="fa fa-home"></a></h3>
+                    <h3>Address:</h3>
+                    <a href="https://maps.app.goo.gl/KMaCnQQDPeVnjbyg8" target="_blank">Old Bus Stand, Mungeli(C.G.)</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page Footer-->
+    <footer class="section footer-minimal context-dark">
+      <div class="bg-gray-15">
+        <div class="container-fluid">
+          <div class="footer-minimal-inset oh">
+            <!-- Footer -->
+            <!-- Footer Links -->
+            <div class="container-fluid text-left">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                  <!-- Content -->
+                  <div class="contact-other">
+                    <h3>PowerShell Enterprise</h3>
+                    <p><i>Visit us for Beautifull, responsive, smart and fast </br> loading website.
+                        ERP, Management, Shopping Counter, </br> Billing Software and many more.</i></p>
+                  </div>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none mt-3 pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-md-0 mb-3">
+
+                  <!-- Links -->
+                  <div class="text-center text-md-left">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Services</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">Projects</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#tech">Technologies</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+                <div class="col-md-4 mb-md-0 mb-3">
+                  <div class="text-center text-md-left">
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Get in touch with us</h5>
+
+                    <div class="mt-3">
+                      <ul>
+                        <li><i class="fa fa-home"></i> : Satya e-Mart, Old Bus Stand, Mungeli(C.G.)</li>
+                        <li><i class="fa fa-phone"></i> : +91 8109291088</li>
+                        <li><i class="fa fa-envelope"></i> : powershellent@gmail.com</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="footer-minimal-bottom-panel text-sm-start bg-gray-dark">
+        <div class="row row-10 align-items-md-center">
+          <div class="col-sm-6 col-md-4 text-sm-end text-md-center">
+            <div>
+              <ul class="list-inline list-inline-sm footer-social-list-2">
+                <li><a class="icon fa fa-facebook" href="#"></a></li>
+                <li><a class="icon fa fa-twitter" href="#"></a></li>
+                <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                <li><a class="icon fa fa-instagram" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 order-sm-first">
+            <!-- Rights-->
+            <p class="rights"><span>&#169;</span><span class="copyright-year">2024</span> <span>PowerShell
+                Enterprise</span>
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4 text-md-end">All rights reserved</div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <a class="icon fa fa-whatsapp floating-wp float-button" href="https://wa.me/+918109291088"></a>
+      <a class="icon fa fa-phone floating-call float-button" href="tel:+918109291088"></a>
+    </footer>
+    <!-- Footer -->
+
+    <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Contact Us</h4>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true"></span></button>
+          </div>
+
+          <div class="modal-body">
+            <form class="rd-form rd-form-variant-2" data-form-output="form-output-global" data-form-type="contact-modal"
+              id="contact-form1">
+              <div class="row row-14 gutters-14">
+                <div class="col-12">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-modal-name" type="text" name="user_name"
+                      data-constraints="@Required">
+                    <label class="form-label" for="contact-modal-name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-modal-email" type="email" name="user_email"
+                      data-constraints="@Email @Required">
+                    <label class="form-label" for="contact-modal-email">E-mail</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-modal-phone" type="text" name="phone"
+                      data-constraints="@Numeric">
+                    <label class="form-label" for="contact-modal-phone">Phone</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-wrap">
+                    <label class="form-label" for="contact-modal-message">Message</label>
+                    <textarea class="form-input textarea-lg" id="contact-modal-message" name="message"
+                      data-constraints="@Required"></textarea>
+                  </div>
+                </div>
+              </div>
+              <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"></div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init({
+        publicKey: "g6grE3L5_zo6d_cfD",
+      });
+    })();
+  </script>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById('contact-form1').addEventListener('submit', function (event) {
+        event.preventDefault();
+        // these IDs from the previous steps
+        emailjs.sendForm('service_xusv1qt', 'template_sc466yr', this)
+          .then(() => {
+            alert('email sent!');
+            $('#modalCta form :input').val("");
+            $('#modalCta').modal('hide');
+          }, (error) => {
+            alert('Failed to send email...', error);
+          });
+      });
+    }
+  </script>
+
+  <!-- coded by Himic-->
+</body>
+
+</html>
