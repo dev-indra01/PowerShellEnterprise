@@ -88,34 +88,22 @@
       left: 0;
       z-index: 1000;
       background-color: #ffffff;
-      /* Dropdown background */
       border: 1px solid #e1e1e1;
-      /* Border for dropdown */
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      /* Shadow for dropdown */
       padding: 0;
-      /* Remove extra padding */
     }
-
     .rd-navbar-dropdown {
       list-style: none;
       margin: 0;
-      min-width: 200px;
-      /* Width of dropdown */
+      min-width: auto;
     }
-
-    .rd-navbar-dropdown .rd-nav-item {
+    .rd-navbar-dropdown .rd-nav-subitem {
       padding: 8px 15px;
-      /* Reduced padding for dropdown items */
     }
-
-    .rd-navbar-dropdown .rd-nav-item:hover {
+    .rd-navbar-dropdown .rd-nav-subitem:hover {
       background-color: #f9f9f9;
-      /* Subtle highlight on hover */
     }
-
-    /* Optional: Add borders between items for better separation */
-    .rd-navbar-dropdown .rd-nav-item+.rd-nav-item {
+    .rd-navbar-dropdown .rd-nav-subitem+.rd-nav-item {
       border-top: 1px solid #e1e1e1;
     }
   </style>
@@ -170,10 +158,10 @@
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#tech">Technologies</a></li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#">Our Products</a>
                         <ul class="rd-navbar-dropdown">
-                          <li class="rd-nav-item"><a href="https://powershellent.in/adhatiya-app">Adhatiya App</a></li>
-                          <li class="rd-nav-item"><a href="https://kruticode.blogspot.com">Krutidev-Unicode</a></li>
-                          <li class="rd-nav-item"><a href="https://mybar-code.blogspot.com">BarCode Generator</a></li>
-                          <li class="rd-nav-item"><a href="https://mycsc.vercel.app/">My CSC</a></li>
+                          <li class="rd-nav-subitem"><a href="https://powershellent.in/adhatiya-app">Adhatiya App</a></li>
+                          <li class="rd-nav-subitem"><a href="https://kruticode.blogspot.com">Krutidev-Unicode</a></li>
+                          <li class="rd-nav-subitem"><a href="https://mybar-code.blogspot.com">BarCode Generator</a></li>
+                          <li class="rd-nav-subitem"><a href="https://mycsc.vercel.app/">My CSC</a></li>
                         </ul>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#contact">Contact Us</a></li>
