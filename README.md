@@ -15,4 +15,4 @@
 
 👉 अधिक जानकारी और डाउनलोड लिंक के लिए हमें व्हाट्सएप करें!
 
-https://powershellent.in/adhatiya-app
+[https://powershellent.in/adhatiya-app](https://dev-indra01.github.io/PowerShellEnterprise/adhatiya-app)
